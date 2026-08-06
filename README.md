@@ -1,16 +1,105 @@
-# React + Vite
+# 📸 Image Compressor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive Image Compressor web application built with **React** and **Vite**. This application allows users to compress images directly in the browser without uploading them to a server, ensuring faster performance and better privacy.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features (Planned)
 
-## React Compiler
+- Drag & Drop Image Upload
+- Image Preview
+- Compress JPG, PNG, and WEBP images
+- Adjustable Compression Quality
+- Resize Image Dimensions
+- Download Compressed Images
+- Multiple Image Compression
+- Progress Indicator
+- Dark / Light Mode
+- Modern Glassmorphism UI
+- Mobile Responsive Design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- browser-image-compression
+- react-dropzone
+- file-saver
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+├── pages/
+├── hooks/
+├── utils/
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## 🎯 Project Status
+
+✅ Project Initialized
+
+🔄 Currently Building:
+- Project Structure
+- Responsive UI
+- Drag & Drop Upload
+
+---
+
+## 📅 Development Roadmap
+
+### Phase 1
+- [x] Project Setup
+- [ ] Folder Structure
+- [ ] Navbar
+- [ ] Home Page
+- [ ] Drag & Drop Upload
+
+### Phase 2
+- [ ] Image Preview
+- [ ] File Details
+- [ ] Supported Formats
+
+### Phase 3
+- [ ] Image Compression
+- [ ] Compression Settings
+- [ ] Compression Statistics
+
+### Phase 4
+- [ ] Download Feature
+- [ ] Multiple Images
+- [ ] Progress Indicator
+
+### Phase 5
+- [ ] Dark/Light Theme
+- [ ] Modern UI
+- [ ] Animations
+- [ ] Toast Notifications
+
+### Phase 6
+- [ ] GitHub Deployment
+- [ ] Vercel Deployment
+- [ ] Screenshots
+- [ ] Documentation
+
+---
+
+## 👩‍💻 Author
+
+**Apeksha C Rao**
+
+GitHub: https://github.com/apekshacrao
