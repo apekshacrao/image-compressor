@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useDropzone } from "react-dropzone";
+import ImagePreview from "./ImagePreview";
 
 function UploadArea() {
   const [selectedFile, setSelectedFile] = useState(null);
@@ -26,9 +27,7 @@ function UploadArea() {
 
       <button type="button">Choose Image</button>
 
-      {selectedFile && (
-        <p>Selected file: {selectedFile.name}</p>
-      )}
+      {selectedFile && <ImagePreview file={selectedFile} />}
     </section>
   );
 }
